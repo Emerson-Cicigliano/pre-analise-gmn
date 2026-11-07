@@ -1,0 +1,12 @@
+node_modules
+.next
+.env.local
+.env*.local
+next-env.d.ts
+*.tsbuildinfo
+data/
+.open-next
+.wrangler
+.dev.vars
+.secrets.tmp.json
+.claude/settings.local.json

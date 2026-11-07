@@ -1,0 +1,24 @@
+{
+  // Configuração da Cloudflare. O comando `npm run instalar` preenche o nome e o database_id sozinho.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pre-analise-gmn",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "workers_dev": true,
+  // Domínio próprio (ex.: portal.suaempresa.com.br): descomente a linha abaixo e troque o endereço.
+  // O domínio precisa estar na mesma conta da Cloudflare.
+  // "routes": [{ "pattern": "portal.suaempresa.com.br", "custom_domain": true }],
+  "services": [{ "binding": "WORKER_SELF_REFERENCE", "service": "pre-analise-gmn" }],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "pre-analise-gmn",
+      "database_id": "PREENCHIDO-PELO-INSTALADOR"
+    }
+  ]
+}
