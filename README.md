@@ -2,7 +2,7 @@
 
 Portal para agências de SEO local analisarem e acompanharem Perfis da Empresa no Google (Google Meu Negócio).
 
-**[⬇️ Baixar a versão mais recente](https://github.com/Subidog-2026/pre-analise-gmn/releases/latest)**
+**[⬇️ Baixar a versão mais recente](https://github.com/Emerson-Cicigliano/pre-analise-gmn/releases/latest)**
 (em *Assets*, clique em **Source code (zip)**; não precisa de conta no GitHub)
 
 Para ser avisado das versões novas: **Watch → Custom → Releases → Apply** no topo desta página.

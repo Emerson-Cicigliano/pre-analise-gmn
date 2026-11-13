@@ -20,7 +20,7 @@ e explica cada passo. Com ele, você só cria as contas e cola as chaves; o rest
 
 ## Passo 2: baixar o projeto
 
-1. Abra https://github.com/Subidog-2026/pre-analise-gmn/releases/latest (não precisa de conta no GitHub).
+1. Abra https://github.com/Emerson-Cicigliano/pre-analise-gmn/releases/latest (não precisa de conta no GitHub).
 2. Em **Assets**, clique em **Source code (zip)** e descompacte numa pasta, por exemplo `C:\pre-analise-gmn`.
 
 ## Passo 3: abrir a pasta no Claude Code
