@@ -34,13 +34,17 @@ instalador de novo.
 
 ## Passo 2: baixar o projeto
 
-Você recebeu um convite do GitHub por e-mail.
+Não precisa de conta no GitHub.
 
-1. Abra o convite e clique em **Accept invitation**. Se não tiver conta no GitHub, crie uma gratuita em https://github.com/signup.
-2. Na página do projeto, clique no botão verde **Code → Download ZIP**.
+1. Abra https://github.com/Subidog-2026/pre-analise-gmn/releases/latest
+2. Em **Assets**, clique em **Source code (zip)**.
 3. Descompacte o arquivo numa pasta fácil de achar, por exemplo `C:\pre-analise-gmn` ou `Documentos/pre-analise-gmn`.
 
-*(Quem já usa Git pode clonar: `git clone <endereço do repositório>`. Assim fica mais fácil receber atualizações; veja o passo 9.)*
+*(Quem já usa Git pode clonar: `git clone https://github.com/Subidog-2026/pre-analise-gmn.git`. Assim fica mais fácil
+receber atualizações; veja o passo 9.)*
+
+**Quer ser avisado das versões novas?** Com uma conta gratuita no GitHub, abra a página do projeto e clique em
+**Watch → Custom → Releases → Apply**. A cada versão nova chega um e-mail.
 
 ## Passo 3: chave do Google (obrigatória)
 
@@ -113,7 +117,8 @@ Se algo der errado no meio, é só rodar `npm run instalar` de novo: ele continu
 
 Quando houver uma versão nova:
 
-- **Se você baixou o ZIP:** baixe o ZIP novo e copie para a pasta nova **estes dois arquivos da pasta antiga**:
+- **Se você baixou o ZIP:** baixe o ZIP novo em https://github.com/Subidog-2026/pre-analise-gmn/releases/latest
+  e copie para a pasta nova **estes dois arquivos da pasta antiga**:
   `wrangler.jsonc` e `.env.local`. Depois, dentro da pasta nova, rode `npm install` e `npm run deploy`.
 - **Se você usou `git clone`:** dentro da pasta, rode `git pull` e depois `npm run deploy`.
 

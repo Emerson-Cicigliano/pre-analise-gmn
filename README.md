@@ -2,6 +2,11 @@
 
 Portal para agências de SEO local analisarem e acompanharem Perfis da Empresa no Google (Google Meu Negócio).
 
+**[⬇️ Baixar a versão mais recente](https://github.com/Subidog-2026/pre-analise-gmn/releases/latest)**
+(em *Assets*, clique em **Source code (zip)**; não precisa de conta no GitHub)
+
+Para ser avisado das versões novas: **Watch → Custom → Releases → Apply** no topo desta página.
+
 ## Como instalar
 
 - **Sozinho, passo a passo:** [INSTALACAO.md](INSTALACAO.md)
@@ -50,3 +55,8 @@ O status de cada integração aparece em **Configurações** no portal.
 - A publicação automática das respostas no Google depende de o Google aprovar o seu acesso à Business Profile API
   (veja o final do [INSTALACAO.md](INSTALACAO.md)). Até lá, a fila funciona com copiar e colar.
 - Sem a DataForSEO, a grade de posição é uma aproximação feita com a Places API.
+
+## Licença
+
+[MIT](LICENSE). Pode usar, modificar e distribuir, inclusive comercialmente, mantendo o aviso de autoria.
+Criado por [Emerson Cicigliano · Audieri](https://www.emersoncicigliano.com).

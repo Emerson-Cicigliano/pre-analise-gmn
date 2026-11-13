@@ -8,7 +8,6 @@ e explica cada passo. Com ele, você só cria as contas e cola as chaves; o rest
 ## O que você precisa
 
 - Uma assinatura do Claude (Pro ou Max) em https://claude.ai.
-- Uma conta gratuita no GitHub, para aceitar o convite do projeto.
 - As contas dos serviços: **Google Cloud** (obrigatória), **Cloudflare** (gratuita), **DataForSEO** e **Anthropic**
   (opcionais, recomendadas). O Claude te guia na criação de cada uma, e o [INSTALACAO.md](INSTALACAO.md) tem os
   links e o passo a passo.
@@ -21,8 +20,8 @@ e explica cada passo. Com ele, você só cria as contas e cola as chaves; o rest
 
 ## Passo 2: baixar o projeto
 
-1. Aceite o convite do GitHub que chegou por e-mail (**Accept invitation**).
-2. Na página do projeto, clique em **Code → Download ZIP** e descompacte numa pasta, por exemplo `C:\pre-analise-gmn`.
+1. Abra https://github.com/Subidog-2026/pre-analise-gmn/releases/latest (não precisa de conta no GitHub).
+2. Em **Assets**, clique em **Source code (zip)** e descompacte numa pasta, por exemplo `C:\pre-analise-gmn`.
 
 ## Passo 3: abrir a pasta no Claude Code
 
