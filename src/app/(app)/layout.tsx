@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import BackButton from "@/components/BackButton";
 import BrandMark from "@/components/BrandMark";
+import UpdateBanner from "@/components/UpdateBanner";
 import { authEnabled, isLoggedIn } from "@/lib/auth";
 
 // Todas as páginas deste grupo exigem login.
@@ -22,6 +23,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
           {authEnabled() && <a href="/api/logout">Sair</a>}
         </nav>
       </header>
+      <UpdateBanner />
       <main className="container">
         <BackButton />
         {children}

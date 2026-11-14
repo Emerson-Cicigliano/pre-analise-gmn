@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import UpdatesCard from "@/components/UpdatesCard";
 import { getJson, postJson } from "@/lib/fetcher";
 import type { AgencySettings } from "@/lib/types";
 
@@ -55,6 +56,8 @@ export default function ConfiguracoesPage() {
     <>
       <h1>Configurações</h1>
       <p className="sub">Dados da agência usados na proposta, nas respostas e nos cards.</p>
+
+      <UpdatesCard />
 
       <section className="card">
         <h2>Integrações</h2>

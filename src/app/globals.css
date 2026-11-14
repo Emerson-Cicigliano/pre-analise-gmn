@@ -316,6 +316,12 @@ tr.behind td { background: var(--bad-soft); }
 .volume-week .up, .volume-week .down { font-size: 12px; }
 @media (max-width: 640px) { .volume-weeks { grid-template-columns: 1fr; } }
 
+/* ---------- aviso de versão nova ---------- */
+.update-banner { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; padding: 8px 16px; background: var(--accent-soft); border-bottom: 1px solid var(--frame); font-size: 14px; }
+.update-banner a { color: var(--accent-text); font-weight: 600; }
+.update-banner button { background: transparent; color: var(--muted); border: 0; padding: 0 6px; font-size: 18px; line-height: 1; }
+.update-banner button:hover { background: transparent; color: var(--ink); }
+
 /* ---------- botão voltar ---------- */
 .back-btn { margin-bottom: 14px; }
 
